@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insurance Policy Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Insurance Policy Form</h1>
+  <form id="insurancePolicyForm">
+    <label for="agreement_id">Agreement ID:</label>
+    <input type="text" id="agreement_id" name="agreement_id" required>
+    
+    <label for="department_name">Department Name:</label>
+    <input type="text" id="department_name" name="department_name">
+    
+    <label for="policy_number">Policy Number:</label>
+    <input type="text" id="policy_number" name="policy_number">
+    
+    <label for="start_date">Start Date:</label>
+    <input type="date" id="start_date" name="start_date">
+    
+    <label for="expiry_date">Expiry Date:</label>
+    <input type="date" id="expiry_date" name="expiry_date">
+    
+    <label for="term_condition_description">Term Condition Description:</label>
+    <textarea id="term_condition_description" name="term_condition_description" rows="4"></textarea>
+    
+    <label for="application_id">Application ID:</label>
+    <input type="text" id="application_id" name="application_id" required>
+    
+    <label for="cust_id">Customer ID:</label>
+    <input type="text" id="cust_id" name="cust_id" required>
+    
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

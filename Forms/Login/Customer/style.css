@@ -1,0 +1,131 @@
+.container{
+    display:flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 50px;
+    align-items: center;
+    background-color: aqua;
+    font-size:30px;
+}
+
+.wrapper .input-box{
+    margin-top: 20px;  
+    font-size: large;
+}
+
+
+.input-box input
+{
+    width: 30vw;
+    margin-right: 45px;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.input-box input[id = "ID_NUMBER"]
+{
+    width: 1vw;
+}
+.wrapper .second-box
+{
+    margin-top: 20px;
+    font-size: large;    
+}
+
+
+.wrapper .second-box input{
+    /* width: 20vw; */
+    font-size: large;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+.second-box label{
+  margin-right: 45px;
+}
+
+.second-box label[for ="gender"]
+{
+    margin-left:75px;
+}
+
+.second-box label[for ="male"]
+{
+    margin-left:10px;
+}
+
+.second-box label[for = "dob"]{
+    margin-right: 10px;
+}
+
+
+/* .second-box input[id = "male"]
+{
+    margin-left: px
+} */
+
+
+.wrapper .address
+{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.wrapper .address input{
+    border-radius: 10px;
+    width: 89%
+}
+
+
+.number
+{
+    margin-top: 30px;
+    font-size: large;  
+  
+}
+
+
+
+.wrapper .number input{
+    border-radius: 10px;    
+}
+
+.number label[for = "e-mail"]
+{
+    margin-left: 60px;
+}
+
+.number input[id = "mail"]
+{
+    width: 30vw;
+}
+
+.number input[id = "number"]
+{
+    width: 30vw;
+}
+
+.wrapper .passport{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.passport input[id = "pass"]{
+    border-radius: 10px;    
+    width: 30vw;
+}
+
+.passport label[for="Marital_status"]
+{
+    margin-left: 60px;
+}
+
+.wrapper .pps{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.pps input{
+    border-radius: 10px;    
+}

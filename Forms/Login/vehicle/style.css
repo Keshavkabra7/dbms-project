@@ -1,0 +1,82 @@
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 10vh;
+    background-color: #faebd7;
+    align-items: center;
+    font-size:large    
+}
+
+.wrapper{
+    margin-top: 10px;
+    border:2px solid black; 
+    height: 85vh;
+    width: 60vw;
+    transform: translateX(34%);    
+}
+
+.wrapper .box
+{
+    margin-top: 30px;
+    display: flex;
+    
+    justify-content: space-around;    
+
+}
+
+.wrapper .box label{
+    font-size: large;
+}
+
+
+
+.wrapper .box input
+{
+    margin-right: 100px;
+    font-size: large;
+    border-radius: 10px;
+    margin-left: -40px;
+}   
+
+.wrapper .input-box{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.wrapper .input-box input{
+    font-size: large;
+    margin-right: 100px;    
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.wrapper .input-box label[for = "Nok_id"]
+{
+    margin-left: 20px;
+}
+
+
+.wrapper .second {
+    
+    margin-top : 30px;
+    justify-content:space-around;    
+}
+
+.wrapper .second label[for = "vehicle value"]{
+    margin-left: 20px;
+}
+
+.wrapper .second input{
+    border-radius: 10px;
+    font-size:large;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+
+
+
+
